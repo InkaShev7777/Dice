@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="c_Dice.cpp" />
+    <ClCompile Include="c_Staff_Dice.cpp" />
     <ClCompile Include="Dice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_Dice.h" />
+    <ClInclude Include="c_Staff_Dice.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
