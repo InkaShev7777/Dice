@@ -10,6 +10,10 @@ c_Dice::c_Dice()
 	int a = 1+rand() % 6;
 	this->nom_dice = a;
 }
+int c_Dice::getNom()
+{
+	return this->nom_dice;
+}
 std::ostream& operator<<(std::ostream& out, const c_Dice& dice)
 {
 	out << "Nom_dice: " << dice.nom_dice<<"\t";

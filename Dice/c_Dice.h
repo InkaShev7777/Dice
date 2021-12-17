@@ -6,6 +6,7 @@ class c_Dice
 public:
 	c_Dice(int nom);
 	c_Dice();
+	int getNom();
 	friend std::ostream& operator<<(std::ostream& out,const c_Dice& dice);
 };
 
